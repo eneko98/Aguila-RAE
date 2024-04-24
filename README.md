@@ -16,7 +16,7 @@ This repository contains scripts and resources for training a transformer model 
 
 ## Model Training
 
-The model utilizes the `projecte-aina/aguila-7b` transformer architecture. Training is performed on NVIDIA 2x3090 GPUs. Key training enhancements include:
+The model utilizes the `projecte-aina/aguila-7b` transformer architecture from HuggingFace. Training is performed on NVIDIA 2x3090 GPUs. Key training enhancements include:
 
 - **QLora**: Quantized Layers for Reduced memory.
 - **Peft**: Progressive layer freezing for efficiency.
